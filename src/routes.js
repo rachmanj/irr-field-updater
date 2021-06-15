@@ -8,7 +8,7 @@ import EditInvoice from 'components/invoices/edit';
 
 const Routes = props => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/field-updater">
       <Header />
       <MainLayout>
         <Switch>
